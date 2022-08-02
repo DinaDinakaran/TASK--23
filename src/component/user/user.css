@@ -1,0 +1,26 @@
+.user{
+    flex:4;
+}
+.userimg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+.userlistsingle{
+display: flex;
+align-items: center;
+}
+.useredit{
+    border: none;
+    border-radius: 10px;
+   padding: 5px 10px;
+   background-color: rgb(139, 245, 210);
+   color:rgb(0, 0, 0);
+   cursor: pointer;
+}
+.deletebtn{
+color: red;
+cursor: pointer;
+}

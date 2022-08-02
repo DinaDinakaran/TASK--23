@@ -1,0 +1,56 @@
+.topbar{
+    height: 60px;
+   width: 100%;
+    background-color: #fff;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+   position: sticky;
+   top:0;
+   z-index: 999;
+   
+   
+}
+.contendwrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 20px;
+}
+.title{
+    font-size: xx-large;
+    font-weight: bold;
+    color:mediumslateblue;
+}
+.leftcontend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:darkgray;
+}
+.count{
+    display: flex;
+    position: relative;
+    left: -10px;
+    top: -6px;
+    font-size: 12px;
+    background-color: red;
+    border-radius: 50%;
+    width: 15px;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+
+    
+}
+.profile{
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.iconfuture{
+    cursor: pointer;
+}

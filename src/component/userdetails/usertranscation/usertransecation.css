@@ -1,0 +1,61 @@
+.Usertransecation{
+    flex: 5;
+   
+}
+.tranctiontable{
+    width: 100%;
+    padding: 20px;
+    border-spacing: 10px;
+}
+.tableBody{
+    margin-top: 15px;
+
+}
+
+.tableItem{
+    text-align: left;
+}
+.bodyItem-img{
+    display: flex;
+     align-items: center; 
+     
+}
+
+.customerImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.name{
+    font-weight: 600;
+    
+}
+.bodyItem-date{
+    color: rgb(101, 99, 99);
+}
+.bodyItem-amount{
+    color: rgb(101, 99, 99);
+}
+.statusbtn{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+}
+.statusbtn.Declined{
+    background-color: #feeded;
+    color: #EF9F9F;
+}
+.statusbtn.Pending{
+    background-color: #eefefe;
+    color: #95ebeb;
+    padding: 5px 13px;
+
+}
+.statusbtn.Approved{
+    background-color: #ebffeb;
+    color: #70e097;
+}
+

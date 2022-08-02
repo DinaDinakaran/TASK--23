@@ -1,0 +1,44 @@
+.newuser{
+    flex: 3;
+    
+}
+.newuserpadding{
+    padding: 20px;
+}
+.userwrrap{
+    margin-bottom: 20px;
+}
+.userimg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.username{
+    font-size: 18px;
+    font-weight:600
+}
+.userjob{
+    color: rgb(112, 111, 111);
+}
+.usertextdetails{
+    flex-direction: row;
+}
+.userDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.uservisbility{
+display: flex;
+margin-right: 20px;
+border-radius: 10px;
+border: none;
+padding: 5px 8px;
+cursor: pointer;
+align-items: center;
+
+}
+.icon{
+    color: rgb(110, 110, 110) !important;
+}

@@ -1,0 +1,45 @@
+.futuered{
+    display: flex;
+    margin-top: 10px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.futurewrapp{
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.futureTitle{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.futuremoneycontainer{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.futuremoney{
+    font-size: 30px;
+    font-weight: 600;
+   
+}
+.futuremoneyrating{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.arrows-red{
+    height: 15px !important;
+    color: red;
+}
+.arrows-green{
+    height: 15px !important;
+    color:green;
+}
+.future-sub-title{
+   
+    color: rgb(140, 140, 140);
+}
